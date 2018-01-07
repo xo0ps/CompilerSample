@@ -1,0 +1,54 @@
+m_grammers_container in getInput()
+S->LAB
+L->d|0
+A->dA|Ba
+B->Bb|0
+
+m_grammers in createGrammers()
+
+S	LAB	false	false	false
+L	d	0	true	false	false
+A	dA	Ba	false	false	false
+B	Bb	0	true	true	false
+
+m_grammers in makeUniqueLeftSides()
+
+S	LAB	false	false	false
+L	d	0	true	false	false
+A	dA	Ba	false	false	false
+B	Bb	0	true	true	false
+
+m_grammers in makeWithoutLeftRecursion()
+
+S	LAB	false	false	false
+L	d	0	true	false	false
+A	dA	Ba	false	false	false
+B	C	0	true	false	false
+C	bB	0	true	false	false
+
+m_grammers in makeWithoutEpsilon()
+
+S	LAB	AB	LA	A	false	false	true
+L	d	false	false	false
+A	dA	Ba	a	false	false	false
+B	C	false	false	false
+C	bB	b	false	false	true
+
+m_grammers in insertSingleNonTerminals()
+
+S	LAB	AB	LA	A	false	false	true
+L	d	false	false	false
+A	dA	Ba	a	false	false	false
+B	bB	b	false	false	true
+
+m_grammers in insertSingleTerminals()
+
+S	LAB	AB	LA	A	dAB	dA	LaB	aB	La	a	daB	da	LAb	Ab	dAb	Lab	ab	dab	false	false	true
+A	dA	Ba	ba	false	false	false
+B	bB	false	false	false
+
+m_grammers in omitRemovedLeftSides()
+
+S	AB	A	dAB	dA	aB	a	daB	da	Ab	dAb	ab	dab	false	false	true
+A	dA	Ba	ba	false	false	false
+B	bB	false	false	false

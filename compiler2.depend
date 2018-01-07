@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1338569220 source:c:\users\mahdi\desktop\compiler\main.cpp
+	<iostream>
+	<cstring>
+	"Compiler.h"
+	"Grammer.h"
+
+1338638514 c:\users\mahdi\desktop\compiler\compiler.h
+	<vector>
+	<cstring>
+	<fstream>
+	"Grammer.h"
+
+1338580468 c:\users\mahdi\desktop\compiler\grammer.h
+
+1338657287 source:c:\users\mahdi\desktop\compiler\compiler.cpp
+	<iostream>
+	<cstring>
+	"Compiler.h"
+	"Grammer.h"
+	<windows.h>
+	<pthread.h>
+
+1339091420 source:c:\users\mahdi\desktop\compiler2\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	"Compiler.h"
+	"Grammer.h"
+
+1341495507 c:\users\mahdi\desktop\compiler2\compiler.h
+	<vector>
+	<cstring>
+	<fstream>
+	"Grammer.h"
+
+1338580468 c:\users\mahdi\desktop\compiler2\grammer.h
+
+1339150044 source:c:\users\mahdi\desktop\compiler2\compiler.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"Compiler.h"
+	"Grammer.h"
+	<windows.h>
+	<pthread.h>
+
